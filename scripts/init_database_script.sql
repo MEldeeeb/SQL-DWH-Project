@@ -6,6 +6,6 @@ USE DataWarehous ;
 GO
 CREATE SCHEMA bronze ;
 GO
-CREATE SCHEMA selver ;
+CREATE SCHEMA silver ;
 GO
 CREATE SCHEMA gold ;

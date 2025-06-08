@@ -123,7 +123,7 @@ Begin
 				else cast(cast( sls_due_dt as char(8)) as date ) 
 			end as sls_due_dt,
 			case 
-				when sls_sales <= 0 or sls_sales is null or sls_sales != sls_quantity * sls_price then sls_quantity * sls_price
+				when sls_sales <= 0 or sls_sales is null or sls_sales != sls_quantity * abs(sls_price) then sls_quantity * abs(sls_price)
 				else sls_sales
 			end as sls_sales,
 			isnull (sls_quantity,0) as sls_quantity,

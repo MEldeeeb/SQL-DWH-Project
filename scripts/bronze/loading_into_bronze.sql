@@ -8,7 +8,7 @@ begin
 
 	
 		print '---------------------------------------------------------------------------';
-		print '                           Loading ERP tables                              ';
+		print '                           Loading CRM tables                              ';
 		print '---------------------------------------------------------------------------';
 
 		declare @start_date datetime, @end_date datetime , @patch_start datetime , @patch_end datetime 

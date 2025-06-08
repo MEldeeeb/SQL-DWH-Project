@@ -34,11 +34,11 @@ CREATE TABLE silver.crm_prd_info (
 go
 
 
-----------------------------------------------------------
+---------------------------------------------------------- 
 IF OBJECT_ID('silver.crm_prd_info', 'U') IS NOT NULL
-	drop table silver.crm_prd_info ; 
+	drop table silver.crm_sales_details ; 
 go
-create table silver.crm_prd_info(
+create table silver.crm_sales_details(
 	sls_ord_num nvarchar(50),
 	sls_prd_key nvarchar(50),
 	sls_cust_id int,

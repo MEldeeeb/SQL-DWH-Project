@@ -39,3 +39,9 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ## Data Lineage
 Data Lineage descripes lifecycle and movement of data through an organization’s systems. It tracks where data originates, how it moves, how it's transformed, and where it ends up.
 ![Data Lineage](doc/data_lineage.jpg)
+
+## Acknowledgment  
+This project is a guided project, and I would like to express my gratitude to [**Baraa Khatib Salkini**](https://www.linkedin.com/in/baraa-khatib-salkini/) for sharing such high-quality, well-structured, and insightful content.  
+
+
+
